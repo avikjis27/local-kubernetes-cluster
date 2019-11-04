@@ -32,5 +32,6 @@ Vagrant.configure("2") do |config|
                     node_ip: "192.168.50.#{i + 10}",
                 }
             end
-        end
+		end
     end
+end
